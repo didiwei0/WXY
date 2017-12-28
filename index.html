@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html class=" js-no-overflow-scrolling">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>给最爱Y</title>
+<link rel="stylesheet" type="text/css" href="H5FullscreenPage.css">
+<link rel="stylesheet" type="text/css" href="page-animation.css">
+
+<style type="text/css">
+
+    html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        font-family: arial;
+        text-align: center;
+        color: #42426F;
+        font-weight: bold;
+    }
+
+    * {
+        margin:0;
+        padding: 0;
+    }
+    ul {
+        list-style: none;
+    }
+
+
+    .item1 {
+        background:url("./imgs/xue22.png") no-repeat center/cover;
+    }
+    .item2 {
+        background:url("./imgs/555.jpg") no-repeat center/cover;
+    }
+    .item3 {
+        background:url("./imgs/alsj.jpg") no-repeat center/cover;
+    }
+    .item4 {
+        background:url("./imgs/sb.jpg") no-repeat center/cover;
+    }
+    .item6 {
+        background: url("./imgs/en.jpg")no-repeat center/cover;
+    }
+
+    .item1 .part1 {
+        position: absolute;
+        top: 100px;
+        left: 19%;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 24px;
+    }
+
+    .item1 .part2 {
+        position: absolute;
+        bottom: 100px;
+        right: 19%;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(116, 178, 9);
+    }
+
+    .item3 .part1 {
+        position: absolute;
+        top: 100px;
+        left: 19%;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        font-size: 24px;
+    }
+
+    .item3 .part2 {
+        position: absolute;
+        bottom: 100px;
+        right: 19%;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        background: url("./imgs/sb6.jpg") no-repeat center/cover;
+    }
+    .item2 .part1 {
+        position: absolute;
+        top: 100px;
+        right: 35%;
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
+
+    }
+    .item2 .part3 {
+        position: absolute;
+        bottom: 200px;
+        left: 19%;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        background: url("./imgs/11.jpeg") no-repeat center/cover;
+    }
+
+
+    .item4 .part2 {
+        position: absolute;
+        bottom: 100px;
+        right: 19%;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    .item5 .part2 {
+        position: absolute;
+        top: 100px;
+        left: 19%;
+        text-align: center;
+        width: 150px;
+        height: 100px;
+        background-color: rgb(116, 178, 9);
+    }
+
+
+    .item6 .part1 {
+        position: absolute;
+        bottom: 100px;
+        left: 19%;
+        text-align: center;
+        width: 250px;
+        height: 250px;
+        background: url("./imgs/wowo.png") no-repeat center/cover;
+        opacity: 0.8;
+        font-size: 18px;
+        line-height: 300px;
+    }
+    #div2{
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 999;
+        width: 100px;
+        height: 100px;
+        background: #bbbbbb;
+        border-radius: 50%;
+        line-height: 100px;
+        text-align: center;
+    }
+    #huan{
+        line-height:150px;
+        font-size: 36px;
+        font-weight: bold;
+        color:#2F2F4F ;
+        border-radius: 50%;
+        background: url("./imgs/dian.png") no-repeat center/cover;
+        transform: scale(0.7);
+        right: 50px;
+    }
+    i{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        text-align: center;
+        line-height: 40px;
+        color: #9932CD;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .item6 .yy1{
+        left: 100px;
+        top: 100px;
+    }
+.item6 .yy2{
+        left: 140px;
+        top: 100px;
+    }
+.item6 .yy3{
+        left: 180px;
+        top: 100px;
+    }
+.item6 .yy4{
+        left: 220px;
+        top: 100px;
+    }
+.item6 .yy5{
+        left: 260px;
+        top: 100px;
+    }
+.item6 .yy6{
+        left: 300px;
+        top: 100px;
+    }
+.item6 .yy7{
+        left: 340px;
+        top: 100px;
+    }
+.item6 .yy8{
+        left: 50px;
+        top: 140px;
+    }
+.item6 .yy9{
+        left: 90px;
+        top: 140px;
+    }
+.item6 .yy10{
+        left: 130px;
+        top: 140px;
+    }
+.item6 .yy11{
+        left: 170px;
+        top: 140px;
+    }
+.item6 .yy12{
+        left: 210px;
+        top: 140px;
+    }
+.item6 .yy13{
+        left: 250px;
+        top: 140px;
+    }
+.item6 .yy14{
+        left: 290px;
+        top: 140px;
+    }
+.item6 .yy15{
+        left: 330px;
+        top: 140px;
+    }
+.item6 .yy16{
+        left: 50px;
+        top: 180px;
+    }
+.item6 .yy17{
+        left: 90px;
+        top: 180px;
+    }
+.item6 .yy18{
+        left: 130px;
+        top: 180px;
+    }
+.item6 .yy19{
+        left: 170px;
+        top: 180px;
+    }
+.item6 .yy20{
+        left: 210px;
+        top: 180px;
+    }
+.item6 .yy21{
+        left: 250px;
+        top: 180px;
+    }
+.item6 .yy22{
+        left: 290px;
+        top: 180px;
+    }
+.item6 .yy23{
+        left: 330px;
+        top: 180px;
+    }
+.item6 .yy24{
+        left: 50px;
+        top: 220px;
+    }
+.item6 .yy25{
+        left: 90px;
+        top: 220px;
+    }
+.item6 .yy26{
+        left: 130px;
+        top: 220px;
+    }
+.item6 .yy27{
+        left: 170px;
+        top: 220px;
+    }
+.item6 .yy28{
+        left: 210px;
+        top: 220px;
+    }
+.item6 .yy29{
+        left: 250px;
+        top: 220px;
+    }
+.item6 .yy30{
+        left: 290px;
+        top: 220px;
+    }
+.item6 .yy31{
+        left: 330px;
+        top: 220px;
+    }
+.item6 .yy32{
+        left: 50px;
+        top: 260px;
+    }
+.item6 .yy33{
+        left: 90px;
+        top: 260px;
+    }
+.item6 .yy34{
+        left: 130px;
+        top: 260px;
+    }
+.item6 .yy35{
+        left: 170px;
+        top: 260px;
+    }
+.item6 .yy36{
+        left: 210px;
+        top: 260px;
+    }
+.item6 .yy37{
+        left: 250px;
+        top: 260px;
+    }
+.item6 .yy38{
+        left: 290px;
+        top: 260px;
+    }
+.item6 .yy39{
+        left: 330px;
+        top: 260px;
+    }
+.item6 .yy40{
+        left: 50px;
+        top: 300px;
+    }
+.item6 .yy41{
+        left: 90px;
+        top: 300px;
+    }
+.item6 .yy42{
+        left: 130px;
+        top: 300px;
+    }
+.item6 .yy43{
+        left: 170px;
+        top: 300px;
+    }
+.item6 .yy44{
+        left: 210px;
+        top: 300px;
+    }
+.item6 .yy45{
+        left: 250px;
+        top: 300px;
+    }
+.item6 .yy46{
+        left: 290px;
+        top: 300px;
+    }
+.item6 .yy47{
+        left: 330px;
+        top: 300px;
+    }
+.item6 .yy48{
+        left: 50px;
+        top: 340px;
+    }
+.item6 .yy49{
+        left: 90px;
+        top: 340px;
+    }
+.item6 .yy50{
+        left: 130px;
+        top: 340px;
+    }
+    .item6 .yy51{
+        left: 170px;
+        top: 340px;
+    }
+    .item6 .yy52{
+        left: 210px;
+        top: 340px;
+    }
+    .item6 .yy53{
+        left: 250px;
+        top: 340px;
+    }
+
+</style>
+
+</head>
+<body class="H5FullscreenPage">
+<div id="div2" class="part part2 heartBeat" data-delay="1300"> 拉我拉我</div>
+    <div class="H5FullscreenPage-wrap">
+        <div class="item item1">
+            <div class="part part1 fadeIn" data-delay="1000">
+                十里扬州 恩...
+            </div>
+            <div style="color: #A8A8A8; font-size: 20px;" class="part part1 fadeIn" data-delay="1000">
+            </div>
+            <div class="part part2 fadeIn " data-delay="1000">
+                <img style="width: 100%" src="./imgs/55.jpeg" alt=""/>
+            </div>
+        </div>
+        <div class="item item2">
+            <div class="part part1 slideRight" data-delay="1300">
+                我什么时候才能变得像你一样优秀
+            </div>
+            <div class="part part3 zoomIn " data-delay="1000"></div>
+
+        </div>f
+        <div class="item item3">
+            <div class="part part1 slideUp">
+                向阿拉斯加努力
+            </div>
+            <div class="part part2 slideDown" data-delay="1000"></div>
+
+        </div>
+        <div class="item item4">
+            <div id="huan" class="part part2" data-delay="1000">
+                戳
+            </div>
+        </div>
+        <div class="item item6">
+            <i class="part fadeIn yy1" data-delay="1000">小</i>
+            <i class="part fadeIn yy2" data-delay="1500">燕</i>
+            <i class="part fadeIn yy3" data-delay="1500">！</i>
+            <i class="part fadeIn yy4" data-delay="2500">我</i>
+            <i class="part fadeIn yy5" data-delay="3000">真</i>
+            <i class="part fadeIn yy6" data-delay="3500">的</i>
+            <i class="part fadeIn yy7" data-delay="4000">,</i>
+            <i class="part fadeIn yy8" data-delay="5000">好</i>
+            <i class="part fadeIn yy9" data-delay="5500">想</i>
+            <i class="part fadeIn yy10" data-delay="6000">你</i>
+            <i class="part fadeIn yy11" data-delay="6500">,</i>
+            <i class="part fadeIn yy12" data-delay="7500">我</i>
+            <i class="part fadeIn yy13" data-delay="8000">再</i>
+            <i class="part fadeIn yy14" data-delay="8500">也</i>
+            <i class="part fadeIn yy15" data-delay="9000">不</i>
+            <i class="part fadeIn yy16" data-delay="9500">会</i>
+            <i class="part fadeIn yy17" data-delay="10000">惹</i>
+            <i class="part fadeIn yy18" data-delay="10500">你</i>
+            <i class="part fadeIn yy19" data-delay="11000">生</i>
+            <i class="part fadeIn yy20" data-delay="11500">气</i>
+            <i class="part fadeIn yy21" data-delay="12000">了</i>
+            <i class="part fadeIn yy22" data-delay="13500">...</i>
+            <i class="part fadeIn yy23" data-delay="14000">...</i>
+            <i class="part fadeIn yy24" data-delay="15000">20</i>
+            <i class="part fadeIn yy25" data-delay="15500">17</i>
+            <i class="part fadeIn yy26" data-delay="16000">年</i>
+            <i class="part fadeIn yy27" data-delay="16500">,</i>
+            <i class="part fadeIn yy28" data-delay="17500">12</i>
+            <i class="part fadeIn yy29" data-delay="18000">月</i>
+            <i class="part fadeIn yy30" data-delay="18500">28</i>
+            <i class="part fadeIn yy31" data-delay="19000">日</i>
+            <i class="part fadeIn yy32" data-delay="19500">凌</i>
+            <i class="part fadeIn yy33" data-delay="20000">晨</i>
+            <i class="part fadeIn yy34" data-delay="21000">狗</i>
+            <i class="part fadeIn yy35" data-delay="21500">子</i>
+            <i class="part fadeIn yy36" data-delay="22000">在</i>
+            <i class="part fadeIn yy37" data-delay="22500">此</i>
+            <i class="part fadeIn yy38" data-delay="23000">向</i>
+            <i class="part fadeIn yy39" data-delay="23500">媳</i>
+            <i class="part fadeIn yy40" data-delay="24000">妇</i>
+            <i class="part fadeIn yy41" data-delay="24500">道</i>
+            <i class="part fadeIn yy42" data-delay="25000">谦</i>
+            <i class="part fadeIn yy43" data-delay="25500">,</i>
+            <i class="part fadeIn yy44" data-delay="26500">也</i>
+            <i class="part fadeIn yy45" data-delay="27000">绝</i>
+            <i class="part fadeIn yy46" data-delay="27500">是</i>
+            <i class="part fadeIn yy47" data-delay="28000">最</i>
+            <i class="part fadeIn yy48" data-delay="28500">后</i>
+            <i class="part fadeIn yy49" data-delay="29000">一</i>
+            <i class="part fadeIn yy50" data-delay="29500">次</i>
+            <i class="part fadeIn yy51" data-delay="30000">,</i>
+            <i class="part fadeIn yy52" data-delay="31000">爱</i>
+            <i class="part fadeIn yy53" data-delay="31000">你</i>
+            <div class="part part1 fadeIn parallax" data-delay="32500" >
+                能不能继续对我吵 对我闹
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+    <script type="text/javascript" src="H5FullscreenPage.js"></script>
+    <script type="text/javascript">
+
+    H5FullscreenPage.init({'type':2,'pageShow' : function(dom){
+        
+    },'pageHide' : function(dom){
+        //console.log(dom);
+    }});
+
+//呵呵哈哈哈
+    var flag = false;
+    var cur = {
+        x:0,
+        y:0
+    }
+    var nx,ny,dx,dy,x,y ;
+    function down(){
+        flag = true;
+        var touch ;
+        if(event.touches){
+            touch = event.touches[0];
+        }else {
+            touch = event;
+        }
+        cur.x = touch.clientX;
+        cur.y = touch.clientY;
+        dx = div2.offsetLeft;
+        dy = div2.offsetTop;
+    }
+    function move(){
+        if(flag){
+            var touch ;
+            if(event.touches){
+                touch = event.touches[0];
+            }else {
+                touch = event;
+            }
+            nx = touch.clientX - cur.x;
+            ny = touch.clientY - cur.y;
+            x = dx+nx;
+            y = dy+ny;
+            div2.style.left = x+"px";
+            div2.style.top = y +"px";
+            //阻止页面的滑动默认事件
+            document.addEventListener("touchmove",function(){
+                event.preventDefault();
+            },false);
+        }
+    }
+    //鼠标释放时候的函数
+    function end(){
+        flag = false;
+    }
+    var div2 = document.getElementById("div2");
+    div2.addEventListener("mousedown",function(){
+        down();
+    },false);
+    div2.addEventListener("touchstart",function(){
+        this.style.background = "url('./imgs/5555.jpg') no-repeat center/cover"
+        this.innerHTML = '';
+        down();
+    },false)
+    div2.addEventListener("mousemove",function(){
+        move();
+    },false);
+    div2.addEventListener("touchmove",function(){
+        this.style.background = "url('./imgs/xin.jpg') no-repeat center/cover"
+        move();
+    },false)
+    document.body.addEventListener("mouseup",function(){
+        end();
+    },false);
+    div2.addEventListener("touchend",function(){
+        this.style.background = "url('./imgs/ssb.jpg') no-repeat center/cover";
+        end();
+    },false);
+
+    var imgs = ['url(./imgs/sb.jpg) no-repeat center/cover','url(./imgs/sb1.jpg) no-repeat center/cover','url(./imgs/sb2.jpeg) no-repeat center/cover','url(./imgs/sb3.jpg) no-repeat center/cover','url(./imgs/sb4.jpg) no-repeat center/cover','url(./imgs/sb5.jpeg) no-repeat center/cover']
+    var item4 = document.querySelector('.item4');
+    var huan =  document.querySelector("#huan");
+    var ii = 1;
+                huan.onclick = function(){
+                    console.log('hha');
+                    this.innerHTML = '';
+                item4.style.background = imgs[ii];
+                ii++
+                    if (ii >= imgs.length) {
+                        ii=0;
+                    }
+            }
+
+    </script>
+
+</body>
+</html>
